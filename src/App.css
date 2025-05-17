@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+/* Container to center the form on the page */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Styling the form */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling each form group */
+.form-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Styling for labels */
+.form-group label {
+  font-size: 14px;
+  font-weight: 600;
+  width: 40%;
+  /* Adjust width of label */
+  text-align: left;
+}
+
+/* Styling for inputs */
+.form-group input {
+  width: 55%;
+  /* Adjust width of input */
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Optionally, you can style the input fields on focus */
+.form-group input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+
+:root {
+  --primary-color: #fdfcf9;
+  /* Define the color variable */
+}
+
+
+body {
+  background-color: 	#fcfdfd;
+}

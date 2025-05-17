@@ -1,0 +1,54 @@
+.custom-table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 1000px;
+  background-color: #4A5A63;
+  color: white;
+  text-align: center;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-table th {
+  background-color: #36454F;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.custom-table td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.custom-table tr:nth-child(odd) {
+  background-color: #5B6B75;
+}
+
+.custom-table tr:nth-child(even) {
+  background-color: #4A5A63;
+}
+
+.custom-table a {
+  color: white;
+  text-decoration: underline;
+}
+
+
+button {
+  background-color: #5B6B75;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  outline: none; /* Removes default outline */
+}
+
+/* When clicked and remains active until another element is focused */
+button:focus {
+  background-color: #97A5AE;
+}
+
+
